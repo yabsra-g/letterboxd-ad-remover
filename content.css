@@ -1,0 +1,10 @@
+html,
+body {
+    overflow: auto !important;
+    pointer-events: auto !important;
+}
+
+.banner.banner-950.js-hide-in-app,
+.banner-950 {
+    display: none !important;
+}

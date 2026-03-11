@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Letterboxd Popup Blocker",
+    "version": "1.0",
+    "description": "Removes Admiral popup and Letterboxd pro banner",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://letterboxd.com/*",
+                "https://www.letterboxd.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "content.css"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
